@@ -48,20 +48,26 @@ Charts are saved to `images/`.
 
 ```text
 retail-sales-data-cleaning/
-data/
-    raw/                        # Original dirty dataset
-    processed/                  # Cleaned CSV output
-notebooks/
-    retail_sales_data_cleaning_analysis.ipynb
-outputs/
-    retail_sales_summary.xlsx   # Cleaned data as Excel
-    cleaning_summary.csv        # Summary metrics
-images/                         # Generated charts
-reports/
-    summary_report.md
-README.md
-requirements.txt
-.gitignore
+|
+├── data/
+|   ├── raw/                        # Original dirty dataset
+|   └── processed/                  # Cleaned CSV output
+|
+├── notebooks/
+|   └── retail_sales_data_cleaning_analysis.ipynb
+|
+├── outputs/
+|   ├── retail_sales_summary.xlsx   # Cleaned data as Excel
+|   └── cleaning_summary.csv        # Summary metrics
+|
+├── images/                         # Generated charts
+|
+├── reports/
+|   └── summary_report.md
+|
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
