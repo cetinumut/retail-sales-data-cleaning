@@ -1,0 +1,9 @@
+Metric,Value
+Raw rows,12575
+Cleaned rows,11971
+Rows dropped,604
+Duplicates removed,0
+Price Per Unit recovered,609
+Discount Applied filled,4199
+Item filled (Unknown Item),1213
+Remaining missing values,0
