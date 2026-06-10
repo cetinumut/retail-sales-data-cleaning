@@ -40,13 +40,29 @@ End-to-end data cleaning and analysis project on a dirty retail sales dataset us
 - Top 10 Products by Revenue (horizontal bar chart)
 - Monthly Sales Trend (line chart with area fill)
 
-Charts are saved to .
+Charts are saved to `images/`.
 
 ---
 
 ## Project Structure
 
-
+```text
+retail-sales-data-cleaning/
+data/
+    raw/                        # Original dirty dataset
+    processed/                  # Cleaned CSV output
+notebooks/
+    retail_sales_data_cleaning_analysis.ipynb
+outputs/
+    retail_sales_summary.xlsx   # Cleaned data as Excel
+    cleaning_summary.csv        # Summary metrics
+images/                         # Generated charts
+reports/
+    summary_report.md
+README.md
+requirements.txt
+.gitignore
+```
 
 ---
 
